@@ -1,18 +1,3 @@
-templates:
-  Set:
-    optional:
-      - collection
-      - movie
-      - list
-      - imdb
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    tmdb_list: <<list>>
-    imdb_list: <<imdb>>
-    sync_mode: sync
-    collection_order: release
-    url_poster: <<poster>>
-    sort_title: <<collection_name>>
 collections:
   The Bourne Collection:
     template: {name: Collection, collection: 31562}
