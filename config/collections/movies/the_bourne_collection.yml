@@ -1,3 +1,14 @@
+templates:
+  Collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
 collections:
   The Bourne Collection:
     template: {name: Collection, collection: 31562}
+  Alien:
+    template: {name: Collection, collection: "8091, 135416"}
