@@ -17,7 +17,7 @@ collections:
   Alien:
     template: {name: Collection, collection: "8091, 135416, 115762", url_poster: https://theposterdb.com/api/assets/168446}
   Avatar:
-    template: {name: Collection, collection: 87096, url_poster: https://theposterdb.com/api/assets/291315 }
+    template: {name: Collection, collection: 87096, collection_order: release, url_poster: https://theposterdb.com/api/assets/291315 }
   Back to the Future:
     template: {name: Collection, collection: 264, url_poster: https://theposterdb.com/api/assets/163128}
   Bad Boys:
@@ -33,7 +33,7 @@ collections:
   The Fast and the Furious:
     template: {name: Collection, collection: 9485, url_poster: https://theposterdb.com/api/assets/164783}
   Final Destination:
-    template: {name: Collection, collection: 8864, url_poster: https://theposterdb.com/api/assets/160873}
+    template: {name: Collection, collection: 8864, collection_order: release, url_poster: https://theposterdb.com/api/assets/160873}
   Friday The 13th:
     template: {name: Collection, collection: 9735, movie: "6466, 222724", url_poster: https://theposterdb.com/api/assets/161007}
   Ghostbusters:
