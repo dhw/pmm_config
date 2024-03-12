@@ -3,164 +3,170 @@ templates:
     optional:
       - collection
       - movie
+    collection_mode: hide_items
+    visible_library: true
+    visible_home: true
+    visible_shared: true
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     sync_mode: sync
-    collection_order: release
+    collection_order: alpha
 collections:
   The Bourne Collection:
-    template: {name: Collection, collection: 31562, https://theposterdb.com/api/assets/164761}
+    template: {name: Collection, collection: 31562, url_poster: https://theposterdb.com/api/assets/164761}
   Alien:
-    template: {name: Collection, collection: "8091, 135416, 115762", poster: https://theposterdb.com/api/assets/168446}
+    template: {name: Collection, collection: "8091, 135416, 115762", url_poster: https://theposterdb.com/api/assets/168446}
+  Avatar:
+    template: {name: Collection, collection: 87096, url_poster: https://theposterdb.com/api/assets/291315 }
   Back to the Future:
-    template: {name: Collection, collection: 264, poster: https://theposterdb.com/api/assets/163128}
+    template: {name: Collection, collection: 264, url_poster: https://theposterdb.com/api/assets/163128}
   Bad Boys:
-    template: {name: Collection, collection: 14890, poster: https://theposterdb.com/api/assets/163544}
+    template: {name: Collection, collection: 14890, url_poster: https://theposterdb.com/api/assets/163544}
   The Conjuring Universe:
-    template: {name: Collection, collection: "313086, 402074", movie: 439079, poster: https://theposterdb.com/api/assets/160843}
+    template: {name: Collection, collection: "313086, 402074", movie: 439079, url_poster: https://theposterdb.com/api/assets/160843}
   Evil Dead:
-    template: {name: Collection, collection: 1960-evil-dead-collection, poster: https://theposterdb.com/api/assets/160866}
+    template: {name: Collection, collection: 1960-evil-dead-collection, url_poster: https://theposterdb.com/api/assets/160866}
   The Exorcist:
-    template: {name: Collection, collection: 12263, poster: https://theposterdb.com/api/assets/160872}
+    template: {name: Collection, collection: 12263, url_poster: https://theposterdb.com/api/assets/160872}
   The Expendables:
-    template: {name: Collection, collection: 126125, poster: https://theposterdb.com/api/assets/164780}
+    template: {name: Collection, collection: 126125, url_poster: https://theposterdb.com/api/assets/164780}
   The Fast and the Furious:
-    template: {name: Collection, collection: 9485, poster: https://theposterdb.com/api/assets/164783}
+    template: {name: Collection, collection: 9485, url_poster: https://theposterdb.com/api/assets/164783}
   Final Destination:
-    template: {name: Collection, collection: 8864, poster: https://theposterdb.com/api/assets/160873}
+    template: {name: Collection, collection: 8864, url_poster: https://theposterdb.com/api/assets/160873}
   Friday The 13th:
-    template: {name: Collection, collection: 9735, movie: "6466, 222724", poster: https://theposterdb.com/api/assets/161007}
+    template: {name: Collection, collection: 9735, movie: "6466, 222724", url_poster: https://theposterdb.com/api/assets/161007}
   Ghostbusters:
-    template: {name: Collection, collection: 2980, movie: 43074, poster: https://theposterdb.com/api/assets/174560}
+    template: {name: Collection, collection: 2980, movie: 43074, url_poster: https://theposterdb.com/api/assets/174560}
   The Godfather:
-    template: {name: Collection, collection: 230, poster: https://theposterdb.com/api/assets/164789}
+    template: {name: Collection, collection: 230, url_poster: https://theposterdb.com/api/assets/164789}
   The Grudge:
-    template: {name: Collection, collection: 1974, poster: https://theposterdb.com/api/assets/161051}
+    template: {name: Collection, collection: 1974, url_poster: https://theposterdb.com/api/assets/161051}
   Halloween:
-    template: {name: Collection, collection: "91361, 126209", poster: https://theposterdb.com/api/assets/161050}
+    template: {name: Collection, collection: "91361, 126209", url_poster: https://theposterdb.com/api/assets/161050}
   The Hangover:
-    template: {name: Collection, collection: 86119, poster: https://theposterdb.com/api/assets/165414}
+    template: {name: Collection, collection: 86119, url_poster: https://theposterdb.com/api/assets/165414}
   Hannibal Lecter:
-    template: {name: Collection, collection: 9743, movie: 11454, poster: https://theposterdb.com/api/assets/164790}
+    template: {name: Collection, collection: 9743, movie: 11454, url_poster: https://theposterdb.com/api/assets/164790}
   Harry Potter:
-    template: {name: Collection, collection: 1241, poster: https://theposterdb.com/api/assets/162216}
+    template: {name: Collection, collection: 1241, url_poster: https://theposterdb.com/api/assets/162216}
   Hellraiser:
-    template: {name: Collection, collection: 8917, poster: https://theposterdb.com/api/assets/161045}
+    template: {name: Collection, collection: 8917, url_poster: https://theposterdb.com/api/assets/161045}
   Hostel:
-    template: {name: Collection, collection: 86578, poster: https://theposterdb.com/api/assets/161043}
+    template: {name: Collection, collection: 86578, url_poster: https://theposterdb.com/api/assets/161043}
   The Hunger Games:
-    template: {name: Collection, collection: 131635, poster: https://theposterdb.com/api/assets/163851}
+    template: {name: Collection, collection: 131635, url_poster: https://theposterdb.com/api/assets/163851}
   Indiana Jones:
-    template: {name: Collection, collection: 84, poster: https://theposterdb.com/api/assets/163391}
+    template: {name: Collection, collection: 84, url_poster: https://theposterdb.com/api/assets/163391}
   I Know What You Did Last Summer:
-    template: {name: Collection, collection: 3601, poster: https://theposterdb.com/api/assets/161060}
+    template: {name: Collection, collection: 3601, url_poster: https://theposterdb.com/api/assets/161060}
   I Spit On Your Grave:
-    template: {name: Collection, collection: "296429, 162457", poster: https://theposterdb.com/api/assets/162457}
+    template: {name: Collection, collection: "296429, 162457", url_poster: https://theposterdb.com/api/assets/162457}
   James Bond:
-    template: {name: Collection, collection: 645, poster: https://theposterdb.com/api/assets/164797}
+    template: {name: Collection, collection: 645, url_poster: https://theposterdb.com/api/assets/164797}
   Jaws:
-    template: {name: Collection, collection: 2366, poster: https://theposterdb.com/api/assets/161117}
+    template: {name: Collection, collection: 2366, url_poster: https://theposterdb.com/api/assets/161117}
   Jeepers Creepers:
-    template: {name: Collection, collection: 94899, poster: https://theposterdb.com/api/assets/185530}
+    template: {name: Collection, collection: 94899, url_poster: https://theposterdb.com/api/assets/185530}
   Joyride:
-    template: {name: Collection, collection: 166378, poster: https://theposterdb.com/api/assets/217399}
+    template: {name: Collection, collection: 166378, url_poster: https://theposterdb.com/api/assets/217399}
   Jurassic Park:
-    template: {name: Collection, collection: 328, movie: 630322, poster: https://theposterdb.com/api/assets/162511}
+    template: {name: Collection, collection: 328, movie: 630322, url_poster: https://theposterdb.com/api/assets/162511}
   Leprechaun:
-    template: {name: Collection, collection: 19285, poster: https://theposterdb.com/api/assets/161112}
+    template: {name: Collection, collection: 19285, url_poster: https://theposterdb.com/api/assets/161112}
   Lethal Weapon:
-    template: {name: Collection, collection: 945, poster: https://theposterdb.com/api/assets/164803}
+    template: {name: Collection, collection: 945, url_poster: https://theposterdb.com/api/assets/164803}
   The Lord of the Rings:
-    template: {name: Collection, collection: 119, poster: https://theposterdb.com/api/assets/164138}
+    template: {name: Collection, collection: 119, url_poster: https://theposterdb.com/api/assets/164138}
   Mad Max:
-    template: {name: Collection, collection: 8945, poster: https://theposterdb.com/api/assets/184549}
+    template: {name: Collection, collection: 8945, url_poster: https://theposterdb.com/api/assets/184549}
   Marvel Universe:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls031310794/
     url_poster: https://theposterdb.com/api/assets/162417
     summary: The Marvel Cinematic Universeis a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man
   The Matrix:
-    template: {name: Collection, collection: 2344, poster: https://theposterdb.com/api/assets/163913}
+    template: {name: Collection, collection: 2344, url_poster: https://theposterdb.com/api/assets/163913}
   The Maze Runner:
-    template: {name: Collection, collection: 295130, poster: https://theposterdb.com/api/assets/160968}
+    template: {name: Collection, collection: 295130, url_poster: https://theposterdb.com/api/assets/160968}
   Meet the Parents:
-    template: {name: Collection, collection: 51509, poster: https://theposterdb.com/api/assets/166252}
+    template: {name: Collection, collection: 51509, url_poster: https://theposterdb.com/api/assets/166252}
   Men In Black:
-    template: {name: Collection, collection: 86055, poster: https://theposterdb.com/api/assets/163929}
+    template: {name: Collection, collection: 86055, url_poster: https://theposterdb.com/api/assets/163929}
   Mimic:
-    template: {name: Collection, collection: 10721, poster: https://theposterdb.com/api/assets/160969}
+    template: {name: Collection, collection: 10721, url_poster: https://theposterdb.com/api/assets/160969}
   Mission Impossible:
-    template: {name: Collection, collection: 87359, poster: https://theposterdb.com/api/assets/164810}
+    template: {name: Collection, collection: 87359, url_poster: https://theposterdb.com/api/assets/164810}
   Mortal Kombat:
-    template: {name: Collection, collection: 9818, movie: "664767, 460465", poster: https://theposterdb.com/api/assets/160972}
+    template: {name: Collection, collection: 9818, movie: "664767, 460465", url_poster: https://theposterdb.com/api/assets/160972}
   The Mummy:
-    template: {name: Collection, collection: 1733, poster: https://theposterdb.com/api/assets/161305}
+    template: {name: Collection, collection: 1733, url_poster: https://theposterdb.com/api/assets/161305}
   A Nightmare on Elm Street:
-    template: {name: Collection, collection: 8581, movie: "6466, 23437", poster: https://theposterdb.com/api/assets/161307}
+    template: {name: Collection, collection: 8581, movie: "6466, 23437", url_poster: https://theposterdb.com/api/assets/161307}
   Piranha:
-    template: {name: Collection, collection: "212279, 104830", poster: https://theposterdb.com/api/assets/161300}
+    template: {name: Collection, collection: "212279, 104830", url_poster: https://theposterdb.com/api/assets/161300}
   Pirates of the Caribbean:
-    template: {name: Collection, collection: 295, poster: https://theposterdb.com/api/assets/163404}
+    template: {name: Collection, collection: 295, url_poster: https://theposterdb.com/api/assets/163404}
   Planet of the Apes:
-    template: {name: Collection, collection: 173710, poster: https://theposterdb.com/api/assets/184312}
+    template: {name: Collection, collection: 173710, url_poster: https://theposterdb.com/api/assets/184312}
   Police Academy:
-    template: {name: Collection, collection: 9338, poster: https://theposterdb.com/api/assets/164819}
+    template: {name: Collection, collection: 9338, url_poster: https://theposterdb.com/api/assets/164819}
   Poltergeist:
-    template: {name: Collection, collection: 10453, poster: https://theposterdb.com/api/assets/161298}
+    template: {name: Collection, collection: 10453, url_poster: https://theposterdb.com/api/assets/161298}
   Predator:
-    template: {name: Collection, collection: 399, poster: https://theposterdb.com/api/assets/163975}
+    template: {name: Collection, collection: 399, url_poster: https://theposterdb.com/api/assets/163975}
   Puppet Master:
-    template: {name: Collection, collection: 107949, poster: https://theposterdb.com/api/assets/161294}
+    template: {name: Collection, collection: 107949, url_poster: https://theposterdb.com/api/assets/161294}
   The Purge:
-    template: {name: Collection, collection: 256322, poster: https://theposterdb.com/api/assets/161881}
+    template: {name: Collection, collection: 256322, url_poster: https://theposterdb.com/api/assets/161881}
   Rambo:
-    template: {name: Collection, collection: 5039, poster: https://theposterdb.com/api/assets/164821}
+    template: {name: Collection, collection: 5039, url_poster: https://theposterdb.com/api/assets/164821}
   Resident Evil:
-    template: {name: Collection, collection: 17255, poster: https://theposterdb.com/api/assets/161290}
+    template: {name: Collection, collection: 17255, url_poster: https://theposterdb.com/api/assets/161290}
   Re-Animator:
-    template: {name: Collection, collection: 98036, poster: https://theposterdb.com/api/assets/161291}
+    template: {name: Collection, collection: 98036, url_poster: https://theposterdb.com/api/assets/161291}
   RoboCop:
-    template: {name: Collection, collection: 5547, poster: https://theposterdb.com/api/assets/164016}
+    template: {name: Collection, collection: 5547, url_poster: https://theposterdb.com/api/assets/164016}
   Rocky:
-    template: {name: Collection, collection: 1575, poster: https://theposterdb.com/api/assets/163422}
+    template: {name: Collection, collection: 1575, url_poster: https://theposterdb.com/api/assets/163422}
   Saw:
-    template: {name: Collection, collection: 656, poster: https://theposterdb.com/api/assets/161876}
+    template: {name: Collection, collection: 656, url_poster: https://theposterdb.com/api/assets/161876}
   Scary Movie:
-    template: {name: Collection, collection: 4246, poster: https://theposterdb.com/api/assets/161875}
+    template: {name: Collection, collection: 4246, url_poster: https://theposterdb.com/api/assets/161875}
   Scream:
-    template: {name: Collection, collection: 2602, poster: https://theposterdb.com/api/assets/161544}
+    template: {name: Collection, collection: 2602, url_poster: https://theposterdb.com/api/assets/161544}
   Sharknado:
-    template: {name: Collection, collection: 286023, poster: https://theposterdb.com/api/assets/162221}
+    template: {name: Collection, collection: 286023, url_poster: https://theposterdb.com/api/assets/162221}
   Sharktopus:
-    template: {name: Collection, collection: 370374, poster: https://theposterdb.com/api/assets/167519}
+    template: {name: Collection, collection: 370374, url_poster: https://theposterdb.com/api/assets/167519}
   Sleepaway Camp:
-    template: {name: Collection, collection: 47391, poster: https://theposterdb.com/api/assets/161870}
+    template: {name: Collection, collection: 47391, url_poster: https://theposterdb.com/api/assets/161870}
   Slumber Party Massacre:
-    template: {name: Collection, collection: 138971, poster: https://theposterdb.com/api/assets/161869}
+    template: {name: Collection, collection: 138971, url_poster: https://theposterdb.com/api/assets/161869}
   Species:
-    template: {name: Collection, collection: 9887, poster: https://theposterdb.com/api/assets/160993}
+    template: {name: Collection, collection: 9887, url_poster: https://theposterdb.com/api/assets/160993}
   "Star Wars: The Complete Collection":
-    template: {name: Collection, collection: 10, movie: "348350, 330459", poster: https://theposterdb.com/poster/164120}
+    template: {name: Collection, collection: 10, movie: "348350, 330459", url_poster: https://theposterdb.com/poster/164120}
     summary: "The Complete Saga Of Star Wars"
   Taken:
-    template: {name: Collection, collection: 135483, poster: https://theposterdb.com/api/assets/164840}
+    template: {name: Collection, collection: 135483, url_poster: https://theposterdb.com/api/assets/164840}
   Transformers:
-    template: {name: Collection, collection: 8650, poster: https://theposterdb.com/api/assets/160997}
+    template: {name: Collection, collection: 8650, url_poster: https://theposterdb.com/api/assets/160997}
   The Transporter:
-    template: {name: Collection, collection: 9518, poster: https://theposterdb.com/api/assets/164843}
+    template: {name: Collection, collection: 9518, url_poster: https://theposterdb.com/api/assets/164843}
   Tremors:
-    template: {name: Collection, collection: 91799, poster: https://theposterdb.com/api/assets/161855}
+    template: {name: Collection, collection: 91799, url_poster: https://theposterdb.com/api/assets/161855}
   Troll:
-    template: {name: Collection, collection: 123218, poster: https://theposterdb.com/api/assets/161854}
+    template: {name: Collection, collection: 123218, url_poster: https://theposterdb.com/api/assets/161854}
   Underworld:
-    template: {name: Collection, collection: 2326, poster: https://theposterdb.com/api/assets/161852}
+    template: {name: Collection, collection: 2326, url_poster: https://theposterdb.com/api/assets/161852}
   Urban Legend:
-    template: {name: Collection, collection: 52760, poster: https://theposterdb.com/api/assets/161851}
+    template: {name: Collection, collection: 52760, url_poster: https://theposterdb.com/api/assets/161851}
   Vice Academy:
-    template: {name: Collection, collection: 314638, poster: https://theposterdb.com/api/assets/165846}
+    template: {name: Collection, collection: 314638, url_poster: https://theposterdb.com/api/assets/165846}
   V/H/S:
-    template: {name: Collection, collection: 207621, poster: https://theposterdb.com/api/assets/161850}
+    template: {name: Collection, collection: 207621, url_poster: https://theposterdb.com/api/assets/161850}
   Wrong Turn:
-    template: {name: Collection, collection: 52985, poster: https://theposterdb.com/api/assets/161842}
+    template: {name: Collection, collection: 52985, url_poster: https://theposterdb.com/api/assets/161842}
   X-Men:
-    template: {name: Collection, collection: "748, 453993, 448150", movie: 567604, poster: https://theposterdb.com/api/assets/171112}
+    template: {name: Collection, collection: "748, 453993, 448150", movie: 567604, url_poster: https://theposterdb.com/api/assets/171112}
