@@ -10,7 +10,7 @@ templates:
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     sync_mode: sync
-    collection_order: alpha
+    collection_order: release
 collections:
   The Bourne Collection:
     template: {name: Collection, collection: 31562, url_poster: https://theposterdb.com/api/assets/164761}
@@ -80,11 +80,6 @@ collections:
     template: {name: Collection, collection: 119, url_poster: https://theposterdb.com/api/assets/164138}
   Mad Max:
     template: {name: Collection, collection: 8945, url_poster: https://theposterdb.com/api/assets/184549}
-  Marvel Universe:
-    template: {name: Collection}
-    imdb_list: https://www.imdb.com/list/ls031310794/
-    url_poster: https://theposterdb.com/api/assets/162417
-    summary: The Marvel Cinematic Universeis a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man
   The Matrix:
     template: {name: Collection, collection: 2344, url_poster: https://theposterdb.com/api/assets/163913}
   The Maze Runner:
